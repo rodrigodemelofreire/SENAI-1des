@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<metacharset = "UTF-8">
+		<title> Exercico 2 </title>
+	</head>
+		
+	<body>
+		<form>
+			<h1>Manutenção de usuários do sistema interno</h1>
+			
+			<label for "login"> Login </label>
+			<input type="text" id="login" required>
+					<br><br>
+			<label for="senha">Senha</label>
+			<input id="senha" type="password" required>
+					<br><br>
+			<label for="status">status</label>
+			
+			<select id="status">
+				<option>Ativo</option>
+				<option>Inativo</option>
+			</select>
+					<br><br>
+				<legend>tipo:</legend>
+			<input type="radio" id="tec" name="tipo">
+			<label for ="tec">Técnico<label>
+			<input type="radio" id="prof" name="tipo">
+			<label for="prof">Professor</label>
+			<input type="radio" id="aluno" name="tipo">
+			<label for="aluno">Aluno</label>
+					<br></br>
+			<label for="data"> Data Criação: </label>
+			<input type="text" name="data">
+					<br></br>
+				<legend>Perfil:</legend>
+			<input type="radio" id="convidado" name="tipo">
+			<label for="convidado">convidado</label>
+			<input type="radio" id="adm" name="tipo">
+			<label for="adm">Administrador</label>
+					<br></br>
+
+			<label for="obs">Observações</label>
+			<textarea id="obs"></textarea>
+				<br></br>
+			<legend>Módulos</legend>
+				<input type="checkbox" id="compras">
+				<label for="compras">compras</label>
+				<input type="checkbox" id="biblioteca">
+				<label for="biblioteca">biblioteca</label>
+				<input type="checkbox" id="academico">
+				<label for="academico">academico</label><br><br>
+				<input type="checkbox" name="Documentação">
+				<label for="Documentação">documentação</label>
+				<input type="checkbox" id="recursos">
+				<label for="recursos">Recursos Humanos</label>
+					<br></br>
+			<input type="reset" value="excluir">
+			<input type="submit">	
+		</form>			
+	</body>
+</html>

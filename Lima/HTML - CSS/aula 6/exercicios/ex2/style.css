@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:blueviolet;
+}
+
+.retangulo {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+.quadrado {
+    margin-left: 1vw;
+    width: 25vw;
+    height: 4vh;
+    background-color: purple;   
+}
+.quadrado2 {
+    margin-left: 1vw;
+    width: 20vw;
+    height: 7vh;
+    background-color: antiquewhite;   
+    position: absolute;
+    right: 1vw;
+}
+
+.quadrado2 {
+    margin-left: 1vw;
+    width: 20vw;
+    height: 7vh;
+    background-color:sandybrown;   
+    position: absolute;
+    right: 1vw;
+}
+
+.quadradobaixo {
+    width: 30vw;
+    height: 100vh;
+    background-color:pink;   
+    position: absolute;  
+}
+.quadradodentro {
+    margin-top: 1vw;
+    width: 15vw;
+    height: 35vh;
+    background-color:wheat;   
+    position: absolute;
+    left: 1vw; 
+}

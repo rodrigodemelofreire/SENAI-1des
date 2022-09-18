@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+			<title>Formulario elaborado</title>
+			<meta charset="UTF-8">
+	</head>
+
+	<body>
+		<form>
+			<h1>Formulário</h1>
+
+			<fieldset>
+				<legend>Dados pessoais</legend>
+				<label for="nome">Nome</label>
+				<input type="text" id="nome">
+
+					<br><br>
+
+				<label for="endereço">Endereço</label>
+				<input type="text" id="endereço">
+
+					<br><br>
+
+				<label for="cidade">Cidade</label>
+				<input type="text" id="cidade">
+
+					<br><br>
+
+				<legend>Estado:</legend>
+				<select>
+					<legend>Estado</legend>
+					<option>São Paulo</option>
+					<option>Alagoas</option>
+					<option>Bahia</option>
+					<option>Rio de Janeiro</option>
+				</select>
+			</fieldset>	
+
+					<br><br>
+
+			<fieldset>
+				<legend>Dados Profissionais</legend>
+
+					<br>
+
+				<legend>Natureza do Cargo</legend>
+					<input type="radio" id="gerencia">	
+					<label for="gerencia"> Gerência</label>	
+					<input type="radio" id="financeiro">
+					<label for="financeiro"> Financeiro</label>
+					<input type="radio" id="recepção">
+					<label for="recepção">Recepção</label>
+					<input type="radio" id="administrativo">
+					<label for="administrativo">Administrativo</label>
+					<input type="radio" id="juridico">
+					<label for="juridico">Jurídico</label>	
+
+					<br><br>
+
+				<legend>Área de interesse</legend>
+					<input type="checkbox" id="computação">
+					<label for="computação">Computação</label>
+					<input type="checkbox" id="biologia">
+					<label for="biologia">Biologia</label>
+					<input type="checkbox" id="ambiente">
+					<label for="ambiente">Meio Ambiente</label>
+					<input type="checkbox" id="engenharia">
+					<label for="engenharia">Engenharia</label>
+					<input type="checkbox" id="historia">
+					<label for="historia">História</label>
+						<br><br>
+					<label for="info">Mini-curriculo: </label>
+					<textarea id="info"></textarea>
+			</fieldset>
+					<br><br>
+				<input type="reset" value="limpar form">
+				<input type="submit">
+		</form>
+	</body>
+</html>

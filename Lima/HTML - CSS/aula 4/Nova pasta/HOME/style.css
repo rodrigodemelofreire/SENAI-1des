@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Silkscreen&display=swap');
+
+p {
+    color:red
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+#texto {
+    color: steelblue;
+    
+}
+
+.teste {
+    font-family: Silkscreen;
+    /*background-color:red;*/
+    font-size: 20px;
+    font size: 32px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255,0,0,.2);
+    border: 7px;
+}
+
+.fundo {
+    
+}
+
+body {
+    background-image:  url("../assets/cb109999e76292b5288868a61c043b90.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
