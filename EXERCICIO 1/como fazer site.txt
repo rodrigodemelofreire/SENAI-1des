@@ -1,6 +1,0 @@
-titulo da pagina> livro de receitas
-três links: receita 1,2 e 3 (cada link uma pagina)
-no site da receita: titulo, imagem da receita, igredientes (tag lista) e modod de preparo
-
-	<ul>
-		<li> <a href>
