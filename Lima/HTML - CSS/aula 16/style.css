@@ -1,0 +1,36 @@
+.bola{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: conic-gradient(rgb(149, 116, 233) 40%,  rgb(255, 255, 255) 20deg 30deg);
+}
+
+.bola{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: 5s;
+    background-image: conic-gradient(rgb(149, 116, 233) 80%,  rgb(255, 255, 255) 20deg 30deg);
+}
+
+.bola-dentro {
+    background-color:rgb(191, 191, 191);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    left: 25px;
+    top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+}
