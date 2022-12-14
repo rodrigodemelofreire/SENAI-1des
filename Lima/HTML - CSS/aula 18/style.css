@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+}
+
+.geral{
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: darkgray;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+body {
+    background-color: rgb(47, 80, 137);
+
+}
+
+aside{
+    
+    background-color: coral;
+}
+
+input {
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    outline: none; 
+
+}
+
+
+main{
+
+}
+
+
+#icone{
+    height: 50px;
+    
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+
+
+}
