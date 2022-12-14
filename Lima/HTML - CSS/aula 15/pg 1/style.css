@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #6C117B;
+}
+
+.TESTE {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+#geren {
+    font-size: 50px;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+#ident {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 50px;
+    gap: 50px;
+    width: 500px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#testando {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    width: 400px;
+    height: 60px;
+    border-bottom: 3px solid #04558A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Logar {
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 400px;
+    height: 60px;
+    background: #04558A;
+    border-radius: 5px;
+    flex: none;
+}
+

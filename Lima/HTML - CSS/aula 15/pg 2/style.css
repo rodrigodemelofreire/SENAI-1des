@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0182B0;
+}
+
+header{
+    display: flex;
+    background-color: #04558A;
+    padding: 50px;
+}
+
+img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 0px;
+    top: 15px;
+}
+li {
+    list-style: none;
+    color: aliceblue;
+    float: left;
+    margin-left: 10px;
+}
+
+p {
+    color: aliceblue;
+    padding: 10px;
+}
+
+h2 {
+    color: aliceblue;
+    padding: 25px;
+}
+#user {
+    right: 100;
+    position: absolute;
+
+}
